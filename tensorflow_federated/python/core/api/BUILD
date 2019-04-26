@@ -33,6 +33,7 @@ py_library(
         "//tensorflow_federated/python/common_libs:py_typecheck",
         "//tensorflow_federated/python/core/impl:placement_literals",
         "//tensorflow_federated/python/tensorflow_libs:tensor_utils",
+        "//third_party/py/attr",
     ],
 )
 
@@ -44,6 +45,7 @@ py_test(
         ":computation_types",
         ":placements",
         "//tensorflow_federated/python/common_libs:anonymous_tuple",
+        "//third_party/py/attr",
     ],
 )
 
